@@ -1,0 +1,10 @@
+You have 1 background task(s) currently running:
+{
+  "taskId": "17879b4e-209a-4bbf-8e38-6cec75327a3e/task-153",
+  "toolName": "run_command",
+  "toolSummary": "Frontend npm install",
+  "description": "npm install",
+  "startTime": "2026-09-06T08:10:57.022501100Z",
+  "stepIndex": 153,
+  "logUri": "file:///C:/Users/karth/.gemini/antigravity/brain/17879b4e-209a-4bbf-8e38-6cec75327a3e/.system_generated/tasks/task-153.log"
+}

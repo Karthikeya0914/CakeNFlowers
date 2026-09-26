@@ -1,0 +1,20 @@
+The following changes were made by the replace_file_content tool to: C:\Users\karth\.gemini\antigravity\brain\17879b4e-209a-4bbf-8e38-6cec75327a3e\walkthrough.md. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -75,8 +75,12 @@
+    - Midnight Surprise (11:00 PM – 12:00 AM)
+ 4. **Real-Time 5-Stage Order Tracking**:
+    - `CONFIRMED` → `PREPARING` → `QUALITY_PASSED` → `OUT_FOR_DELIVERY` (with van details) → `DELIVERED`.
+-5. **Operations Admin Portal**:
+-   - Live revenue & order KPIs.
++5. **Operations Admin Portal & Multi-Photo Manager**:
++   - Real-time revenue & sales KPI metrics.
++   - **Multi-Photo Product Photography**:
++     - Bulk upload multiple photos directly from device (up to 10 files simultaneously).
++     - Paste external image URLs (Cloudinary, AWS S3, Unsplash).
++     - Visual thumbnail grid with "Cover Photo" designation, "Make Cover" reordering, and individual removal.
+    - Immediate order status dropdown updates that reflect on customer tracking screens in real-time.
+    - Product catalog editor & promotional coupon generator.
+ 
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

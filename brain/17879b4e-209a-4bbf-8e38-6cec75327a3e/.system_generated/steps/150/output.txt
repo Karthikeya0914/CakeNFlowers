@@ -1,0 +1,21 @@
+The following changes were made by the replace_file_content tool to: C:\Users\karth\.gemini\antigravity\scratch\cake-n-flowers\backend\test\api.test.js. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -77,11 +77,12 @@
+     console.log('✔ Order tracking lookup passed');
+ 
+     console.log('\nAll API automated tests completed successfully! 🎉');
++    server.close(() => {
++      process.exit(0);
++    });
+   } catch (err) {
+     console.error('Test failed:', err);
+-    process.exitCode = 1;
+-  } finally {
+-    server.close();
++    process.exit(1);
+   }
+ }
+ 
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

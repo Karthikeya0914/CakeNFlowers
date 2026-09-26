@@ -1,0 +1,11 @@
+
+The command exited with code 1.
+Output:
+
+      "name": "MinGit-2.55.0.5-64-bit.zip",
+      "browser_download_url": 
+"https://github.com/git-for-windows/git/releases/download/v2.55.0.windows.5/MinGit-2.55.0.5-64-bit.zip"
+      "name": "MinGit-2.55.0.5-busybox-64-bit.zip",
+
+
+

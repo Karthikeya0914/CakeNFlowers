@@ -1,0 +1,17 @@
+
+The command exited with code 0.
+Output:
+
+> cake-n-flowers-backend@1.0.0 test
+> node test/api.test.js
+
+Testing Cake N Flowers Backend API...
+🌸 Cake N Flowers API running on http://localhost:5000
+✔ Health check passed
+✔ Categories passed (4 categories)
+✔ Products listing passed (11 products)
+✔ Coupon validation passed
+✔ Order tracking lookup passed
+
+All API automated tests completed successfully! 🎉
+

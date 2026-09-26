@@ -1,0 +1,5 @@
+ERROR: logging before google.Init: I0906 13:00:29.727060      22 server.go:1530] Starting language server process with pid 17444
+ERROR: logging before google.Init: I0906 13:00:29.736399      22 server.go:1583] Language server version: 2.12.2
+ERROR: logging before google.Init: I0906 13:00:29.736947      22 server.go:591] Language server will attempt to listen on host localhost
+ERROR: logging before google.Init: I0906 13:00:29.755691      22 server.go:606] Language server listening on random port at 62373 for HTTPS (gRPC)
+ERROR: logging before google.Init: I0906 13:00:29.756774      22 server.go:614] Language server listening on random port at 53991 for HTTP

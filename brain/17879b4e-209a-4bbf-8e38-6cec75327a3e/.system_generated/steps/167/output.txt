@@ -1,0 +1,17 @@
+
+The command exited with code 0.
+Output:
+
+> cake-n-flowers-frontend@1.0.0 build
+> vite build
+
+vite v6.4.3 building for production...
+transforming...
+✓ 1600 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.26 kB │ gzip:  0.71 kB
+dist/assets/index-BjhlsvgR.css   35.67 kB │ gzip:  6.81 kB
+dist/assets/index-Dqp-PBH5.js   320.08 kB │ gzip: 87.62 kB
+✓ built in 6.42s
+

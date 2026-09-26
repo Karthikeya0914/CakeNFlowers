@@ -1,0 +1,25 @@
+The following changes were made by the replace_file_content tool to: C:\Users\karth\.gemini\antigravity\scratch\cake-n-flowers\backend\src\routes\uploadRoutes.js. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -45,5 +45,19 @@
+   });
+ });
+ 
++// Upload multiple photos at once (up to 10)
++router.post('/multiple', upload.array('photos', 10), (req, res) => {
++  if (!req.files || req.files.length === 0) {
++    return res.status(400).json({ error: 'No image files uploaded.' });
++  }
++
++  const urls = req.files.map((file) => `/uploads/${file.filename}`);
++  res.json({
++    message: `${req.files.length} photos uploaded successfully.`,
++    urls,
++    files: req.files.map((f) => ({ url: `/uploads/${f.filename}`, filename: f.filename }))
++  });
++});
++
+ module.exports = router;
+ 
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

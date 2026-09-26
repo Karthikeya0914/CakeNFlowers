@@ -1,0 +1,12 @@
+
+The command exited with code 1.
+Output:
+mkdir : A positional parameter cannot be found that accepts argument 
+'C:\Users\karth\.gemini\antigravity\scratch\cake-n-flowers\backend\src\routes'.
+At line:1 char:1
++ mkdir -p "C:\Users\karth\.gemini\antigravity\scratch\cake-n-flowers\b ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+ 
+

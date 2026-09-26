@@ -1,0 +1,35 @@
+The following changes were made by the replace_file_content tool to: C:\Users\karth\.gemini\antigravity\scratch\cake-n-flowers\frontend\src\pages\admin\AdminDashboard.jsx. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -144,6 +144,10 @@
+     e.preventDefault();
+     setCreatingProduct(true);
+     try {
++      const finalImages = newProdImages.length > 0
++        ? newProdImages
++        : ['https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80'];
++
+       await api.post('/admin/products', {
+         name: newProdName,
+         categoryId: newProdCat,
+@@ -150,5 +150,5 @@
+         description: newProdDesc,
+-        images: [newProdImage || 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80'],
++        images: finalImages,
+         isEggless: newProdEggless,
+         isCustomizable: newProdCustomizable,
+         stock: 50
+@@ -155,8 +155,9 @@
+-      alert('Product created successfully!');
++      alert('Product created with gallery photos successfully!');
+       setNewProdName('');
+       setNewProdPrice('');
+       setNewProdDesc('');
+-      setNewProdImage('');
++      setNewProdImages([]);
++      setUrlInput('');
+       loadData();
+     } catch (err) {
+       alert(err.message || 'Error creating product');
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

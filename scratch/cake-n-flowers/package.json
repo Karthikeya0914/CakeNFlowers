@@ -1,0 +1,13 @@
+{
+  "name": "cake-n-flowers-monorepo",
+  "version": "1.0.0",
+  "description": "Cake N Flowers - Luxury Pastry & Bespoke Floral Delivery Platform",
+  "scripts": {
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "start:backend": "npm start --prefix backend",
+    "build:frontend": "npm run build --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "test": "npm run test --prefix backend"
+  }
+}

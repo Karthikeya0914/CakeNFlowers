@@ -1,0 +1,15 @@
+
+The command exited with code 0.
+Output:
+
+> cake-n-flowers-backend@1.0.0 seed
+> node prisma/seed.js
+
+--- Seeding Cake N Flowers Boutique Database ---
+Created admin and customer users.
+Created categories.
+Created 11 boutique products with variants and reviews.
+Created promotional coupons.
+Created sample active order (CNF-2026-8941) for tracking demonstration.
+--- Database seeding completed successfully! ---
+

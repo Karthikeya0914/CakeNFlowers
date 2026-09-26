@@ -1,0 +1,10 @@
+You have 1 background task(s) currently running:
+{
+  "taskId": "17879b4e-209a-4bbf-8e38-6cec75327a3e/task-106",
+  "toolName": "run_command",
+  "toolSummary": "Backend API tests",
+  "description": "npm test",
+  "startTime": "2026-09-06T08:06:04.835521Z",
+  "stepIndex": 106,
+  "logUri": "file:///C:/Users/karth/.gemini/antigravity/brain/17879b4e-209a-4bbf-8e38-6cec75327a3e/.system_generated/tasks/task-106.log"
+}
